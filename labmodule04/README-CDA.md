@@ -10,7 +10,7 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 Se tuvierron que instalar multiples herraminetas (senseHat,pillow, pisense,...)
-Esta implementación configura la integración de los sensores y actuadores en la CDA, utilizando el emulador Sense HAT. Se incorporan sensores para monitorear la humedad, temperatura y presión, y un actuador controla la pantalla LED para mostrar información o alertas específicas en función de los datos simulados.
+Esta implementación configura la integración de los sensores y actuadores en la CDA, utilizando el emulador Sense HAT, para controlar y visualizar. Se incorporan sensores para monitorear la humedad, temperatura y presión, y un actuador controla la pantalla LED para mostrar información o alertas específicas en función de los datos simulados.
 
 How does your implementation work?
 La CDA interactúa con el emulador Sense HAT para obtener datos de sensores y activar un actuador. Los datos de los sensores se procesan y el actuador controla la pantalla LED para mostrar información relevante, lo que permite simular un entorno. Al ejecutar los diferenrtes integration test se podian ver los diferentes valores por la pantalla LED.

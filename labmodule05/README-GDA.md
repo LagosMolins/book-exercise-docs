@@ -9,8 +9,10 @@ Be sure to implement all the PIOT-GDA-* issues (requirements) listed.
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+Esta implementación habilita la serialización y deserialización de los datos en formato JSON en la GDA. Los datos de sensores y actuadores se convierten y almacenan de manera estandarizada.
 
 How does your implementation work?
+La GDA utiliza las clases DataUtil para convertir los datos de los sensores y actuadores en objetos JSON. Esta funcionalidad permite que los datos sean intercambiados y almacenados en formatos compatibles.
 
 ### Code Repository and Branch
 

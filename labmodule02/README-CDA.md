@@ -9,8 +9,10 @@ Be sure to implement all the PIOT-CDA-* issues (requirements).
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+Esta implementación añade funcionalidades de monitoreo del rendimiento del sistema a las aplicaciones CDA. Recoge métricas básicas como la utilización de CPU y memoria.
 
 How does your implementation work?
+La implementación crea el módulo SystemPerformanceManager para gestionar la recolección de datos de rendimiento. Este módulo se conecta a la aplicación principal del CDA y coordina las tareas, como SystemCpuUtilTask y SystemMemUtilTask, que recogen los datos de la CPU y memoria.
 
 ### Code Repository and Branch
 

@@ -9,8 +9,10 @@ Be sure to implement all the PIOT-GDA-* issues.
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+La implementación en GDA tiene como objetivo agregar características de monitoreo de rendimiento del sistema, como la recopilación de métricas de uso de CPU y memoria. Estas métricas proporcionan datos básicos sobre el rendimiento del sistema.
 
 How does your implementation work?
+La implementación sigue la estructura del GDA en Java y agrega la funcionalidad de recolección de datos de rendimiento del sistema. El código se encarga de la recolección de datos de uso de CPU y memoria en intervalos definidos, registrándolos para análisis posterior.
 
 ### Code Repository and Branch
 

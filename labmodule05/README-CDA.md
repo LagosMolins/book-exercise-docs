@@ -9,8 +9,10 @@ Be sure to implement all the PIOT-CDA-* issues (requirements).
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+Esta implementación añade capacidades de conversión y persistencia de datos en formato JSON en la CDA. La conversión de datos de sensores y actuadores permite su fácil intercambio y almacenamiento en un formato común para su integración con otros sistemas.
 
 How does your implementation work?
+El sistema convierte los datos de los sensores y actuadores en formato JSON para su serialización y deserialización. Esto permite que los datos puedan ser compartidos entre la CDA y GDA de manera eficiente, utilizando un esquema de mensajería común definido por las clases correspondientes en cada aplicación.
 
 ### Code Repository and Branch
 

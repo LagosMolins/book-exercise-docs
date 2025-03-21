@@ -9,7 +9,7 @@ Be sure to implement all the PIOT-CDA-* issues (requirements).
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
-La implementación congigura y ejecuta el entorno de desarrolo del CDA, usando el repositorio de python-components.
+La implementación configura y ejecuta el entorno de desarrolo del CDA, usando el repositorio de python-components.
 Seguí los pasos de configuración del lab01, modificando el PYTHONPATH y el archivo ConfigConst.py y probando que las pruebas unitarias no den errores.
 
 How does your implementation work?

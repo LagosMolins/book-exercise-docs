@@ -12,7 +12,7 @@ What does your implementation do?
 Esta implementación agrega la capacidad de simulación de datos a la CDA, incorporando sensores virtuales para medir temperatura, humedad y presión. Utilizando un generador de datos, se simulan estos valores y se configuran umbrales, que en caso de ser superados se inica un actuador.
 
 How does your implementation work?
-Los sensores simulados generan datos que son empaquetados en objetos de telemetría, que contienen información adicional sobre el dispositivo. Cuando los valores de los sensores exceden los umbrales establecidos, se activa un actuador. Esto permite probar y validar la interacción entre los sensores y actuadores sin hardware físico.
+Configuramos los sensores simulados para generar datos que son empaquetados en objetos, que contienen información adicional sobre el dispositivo. Cuando los valores de los sensores exceden los umbrales establecidos, se activa un actuador. Esto permite probar y validar la interacción entre los sensores y actuadores sin hardware físico.
 
 ### Code Repository and Branch
 

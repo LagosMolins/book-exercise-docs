@@ -10,10 +10,12 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 La implementación congigura y ejecuta el entorno de desarrolo del CDA, usando el repositorio de python-components.
-Seguí los pasos de configuración del lab01, modificando el PYTHONPATH y el archivo ConfigConst.py
+Seguí los pasos de configuración del lab01, modificando el PYTHONPATH y el archivo ConfigConst.py y probando que las pruebas unitarias no den errores.
 
 How does your implementation work?
-Se basa en la prueba y verificación de la inicialización del CDA. Validamos los archivos de configuración y ejecutamos las pruebas para asegurar que las funcionalidades iniciales estén bien
+Se basa en la prueba y verificación de la inicialización del CDA.
+Validamos los archivos de configuración y ejecutamos las pruebas para asegurar que las funcionalidades iniciales estén bien.
+Configuramos el archivo ConfigConst.py y estableciendo variables de entorno necesarias para asegurar el funcionamiento correcto de la CDA. Después, 
 
 Cabe mencionar que no subo url de este lab01 ya que los cambios fueron escasos y ya se pueden ver en los siguentes labs.
 

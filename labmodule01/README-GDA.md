@@ -9,8 +9,13 @@ Be sure to implement all the PIOT-GDA-* issues (requirements).
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+Esta implementación configura el entorno de desarrollo necesario para ejecutar y probar la aplicación GDA.
+También se realizaron ejecucines de pruebas iniciales para asegurar que la aplicación funcione correctamente.
 
 How does your implementation work?
+Se configura el entorno de desarrollo, que incluye la instalación de dependencias y la prueba de unos test unitarios e intregrales, para comprobar que funcione bien.
+
+De esta tampoco pongo ninguna url por el mismo motivoo del CDA.
 
 ### Code Repository and Branch
 

@@ -14,6 +14,8 @@ Implementa un cliente CoAP en Python usando aiocoap, permitiendo al CDA comunica
 How does your implementation work?
 Define una clase CoapClientConnector que utiliza métodos asíncronos para enviar solicitudes CoAP al servidor configurado. Cada operación maneja su respuesta y se integra con DeviceDataManager si está habilitado.
 
+-A mayores ejecuté ConstrainedDeviceApp.py para probarlo junto con la ejecución del .jar de lab08 gda
+
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch.

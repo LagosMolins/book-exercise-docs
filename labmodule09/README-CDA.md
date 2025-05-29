@@ -9,8 +9,10 @@ Be sure to implement all the PIOT-CDA-* issues (requirements) listed.
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+Implementa un cliente CoAP en Python usando aiocoap, permitiendo al CDA comunicarse con el GDA mediante operaciones GET, PUT, POST y DELETE.
 
 How does your implementation work?
+Define una clase CoapClientConnector que utiliza métodos asíncronos para enviar solicitudes CoAP al servidor configurado. Cada operación maneja su respuesta y se integra con DeviceDataManager si está habilitado.
 
 ### Code Repository and Branch
 

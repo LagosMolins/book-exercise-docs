@@ -9,8 +9,10 @@ Be sure to implement all the PIOT-CDA-* issues (requirements) listed.
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+Integré un cliente MQTT en el sistema, permitiendo publicar y suscribirse a mensajes usando el protocolo MQTT para comunicación en entornos IoT.
 
 How does your implementation work?
+El cliente MQTT se conecta a un broker. Define eventos clave (conexión, desconexión, mensajes) y proporciona métodos para publicar y suscribirse a tópicos. Todo está integrado en DeviceDataManager, que controla su activación según la configuración del sistema.
 
 ### Code Repository and Branch
 

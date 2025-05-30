@@ -9,8 +9,11 @@ Be sure to implement all the PIOT-CDA-* issues (requirements) listed.
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+Lo que hice fue configurar el broker Mosquitto y el cliente CDA para que usen TLS, con el objetivo de tener una comunicación segura y cifrada usando MQTT, también configuré cómo el CDA procesa comandos de actuadores y datos de sensores, tanto con MQTT como con CoAP.
 
 How does your implementation work?
+Para la parte de TLS, generé y configuré certificados con OpenSSL y ajusté la configuración del broker y los clientes para usar cifrado cuando hace falta. Finalmente, para procesar comandos y datos, 
+actualicé las clases para que escuchen los mensajes entrantes, los decodifiquen, y tomen acciones según corresponda, como activar un actuador si los sensores detectan algo relevante.
 
 ### Code Repository and Branch
 
